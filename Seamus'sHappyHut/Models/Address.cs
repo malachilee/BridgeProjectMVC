@@ -18,6 +18,9 @@ namespace Seamus_sHappyHut.Models
         public string City { get; set; }
         public string State { get; set; }
         public int Zipcode { get; set; }
+        public virtual Customer Customer { get; set; }
+
+
 
     }
 }

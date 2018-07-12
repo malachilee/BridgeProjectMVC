@@ -8,6 +8,10 @@ namespace Seamus_sHappyHut.Models
 {
     public class Menu
     {
-        
+        [Key]
+
+        public int itemNum { get; set; }
+        public string ItemName { get; set; }
+        public double Price { get; set; }
     }
 }

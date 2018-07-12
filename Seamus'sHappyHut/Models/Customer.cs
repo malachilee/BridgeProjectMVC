@@ -16,5 +16,7 @@ namespace Seamus_sHappyHut.Models
         public string FavDrink { get; set; }
         public string FavMeal { get; set; }
         public double LargestBill { get; set; }
+        public DateTime StartDate { get; set; }
+        public virtual ICollection<Address> Addresses { get; set; }
     }
 }
